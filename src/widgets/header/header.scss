@@ -1,0 +1,52 @@
+.headers{
+    background-color: #141618;
+    height: 100px;
+    &_header{
+        display: flex;
+        gap: 325px;
+        padding: 20px 0 ;
+
+        &_logo{
+            &_img{
+                width: 42px;
+                height: 61px;
+            }
+        }
+
+        &_navs {
+            display: flex;
+            gap: 50px;
+
+            &_link {
+                color: #ffffff;
+                padding-top: 15px;
+                font-size: 18px;
+                transition: color 0.3s;
+
+                &:hover {
+                    transform: scale(1.1);
+                    transition: transform 0.3s;
+                }
+                &.active {
+                    color: #fee642;
+                }
+            }
+        }
+        // &_profile{
+        //     &_imgs{
+        //         display: flex;
+        //         gap: 10px;
+
+        //         &_img{
+        //             width: 50px;
+        //             height: 50px;
+        //         }
+        //         &_text{
+        //             color: #FFFFFF;
+        //             font-size: 18px;
+        //             padding-top: 10px;
+        //         }
+        //     }
+        // }
+    }
+}
